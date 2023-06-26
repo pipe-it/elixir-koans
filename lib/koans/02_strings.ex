@@ -16,7 +16,7 @@ defmodule Strings do
   end
 
   koan "Or pulled apart into a list when needed" do
-    assert ["hello", "world"] == String.split( "hello world", " ")
+    assert ["hello", "world"] == String.split("hello world", " ")
   end
 
   koan "Be careful, a message may be altered" do
