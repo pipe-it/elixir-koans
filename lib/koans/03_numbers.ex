@@ -18,7 +18,6 @@ defmodule Numbers do
 
   koan "Another way to divide" do
     assert div(5, 2) == 2
-    assert [a, a] = [1, 2]
   end
 
   koan "What remains or: The Case of the Missing Modulo Operator (%)" do

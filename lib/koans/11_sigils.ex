@@ -4,11 +4,11 @@ defmodule Sigils do
   @intro "Sigils"
 
   koan "The ~s sigil is a different way of expressing string literals" do
-    assert ~s{This is a string} == ___
+    assert ~s{This is a string} == "This is a string"
   end
 
   koan "Sigils are useful to avoid escaping quotes in strings" do
-    assert "\"Welcome to the jungle\", they said." == ___
+    assert "\"Welcome to the jungle\", they said." == "\"Welcome to the jungle\", they said." 
   end
 
   koan "Sigils can use different delimiters" do
