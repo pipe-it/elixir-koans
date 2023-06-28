@@ -37,7 +37,7 @@ defmodule MapSets do
     new_set = MapSet.new(@set, fn x -> 3 * x end)
 
     assert MapSet.member?(new_set, 15) == true
-    assert MapSet.member?(new_set, 1) == false 
+    assert MapSet.member?(new_set, 1) == false
   end
 
   koan "Add this value into a map set" do
@@ -71,6 +71,6 @@ defmodule MapSets do
   end
 
   koan "I want my set in a list" do
-    assert MapSet.to_list(@set) == [1,2,3,4,5]
+    assert MapSet.to_list(@set) == [1, 2, 3, 4, 5]
   end
 end

@@ -8,7 +8,7 @@ defmodule Sigils do
   end
 
   koan "Sigils are useful to avoid escaping quotes in strings" do
-    assert "\"Welcome to the jungle\", they said." == "\"Welcome to the jungle\", they said." 
+    assert "\"Welcome to the jungle\", they said." == "\"Welcome to the jungle\", they said."
   end
 
   koan "Sigils can use different delimiters" do
